@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
 su ${_REMOTE_USER} -c "curl -fsSL https://bun.sh/install | bash"
