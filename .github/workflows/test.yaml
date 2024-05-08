@@ -16,6 +16,7 @@ jobs:
           - color
           - hello
           - bun
+          - deno
         baseImage:
           - debian:latest
           - ubuntu:latest
