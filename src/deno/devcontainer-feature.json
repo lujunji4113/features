@@ -1,8 +1,11 @@
 {
     "name": "Deno",
     "id": "deno",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Install Deno.",
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/common-utils": {}
+    },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]

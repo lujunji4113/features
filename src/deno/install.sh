@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
-su ${_REMOTE_USER} -c "curl -fsSL https://deno.land/install.sh | sh"
+su ${_REMOTE_USER} -c "curl -fsSL https://deno.land/install.sh | bash"
 
 echo "export DENO_INSTALL=\"\$HOME/.deno\"" >> ${_REMOTE_USER_HOME}/.bashrc
 echo "export PATH=\"\$DENO_INSTALL/bin:\$PATH\"" >> ${_REMOTE_USER_HOME}/.bashrc
