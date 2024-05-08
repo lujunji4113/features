@@ -1,9 +1,6 @@
 {
   "name": "im",
   "id": "im",
-  "version": "1.0.2",
-  "description": "Setup Input Method",
-  "installsAfter": [
-    "ghcr.io/devcontainers/features/common-utils"
-  ]
+  "version": "1.0.3",
+  "description": "Setup Input Method"
 }
