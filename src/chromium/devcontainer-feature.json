@@ -1,0 +1,9 @@
+{
+    "name": "Chromium",
+    "id": "chromium",
+    "version": "1.0.0",
+    "description": "Install Chromium.",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
