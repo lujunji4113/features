@@ -1,0 +1,10 @@
+{
+  "https_proxy": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "apt-proxy": {
+        "httpsProxy": "http://host.docker.internal:7890"
+      }
+    }
+  }
+}

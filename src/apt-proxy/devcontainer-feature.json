@@ -1,0 +1,18 @@
+{
+  "name": "APT Proxy",
+  "id": "apt-proxy",
+  "version": "1.0,0",
+  "description": "Set APT Proxy.",
+  "options": {
+    "httpProxy": {
+      "type": "string",
+      "proposals": [],
+      "default": ""
+    },
+    "httpsProxy": {
+      "type": "string",
+      "proposals": [],
+      "default": ""
+    }
+  }
+}

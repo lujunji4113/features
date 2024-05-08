@@ -17,6 +17,7 @@ jobs:
           - hello
           - bun
           - deno
+          - apt-proxy
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -38,6 +39,7 @@ jobs:
         features:
           - color
           - hello
+          - apt-proxy
     steps:
       - uses: actions/checkout@v3
 
